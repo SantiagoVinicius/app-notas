@@ -9,4 +9,5 @@ function SalvarAnotacao(){
 
 document.getElementById("botao-salvar").addEventListener("click", function(){
     SalvarAnotacao()
+    navigator.vibrate(7000);
 })
